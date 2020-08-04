@@ -1091,3 +1091,40 @@ section {
 .add-border {
 	border: solid 2px black;   
 }
+.add-border:hover {
+	border: solid 2px #149ddd;   
+}
+.detail-container * {
+    box-sizing: border-box;
+}
+.detail-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail-item {
+    padding: 10px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.detail-item a, .detail-item img {
+    width: 100% !important;
+}
+@media (max-width: 1199px) {
+    .detail-item {
+        width: 33%;
+        padding: 20px;
+    }
+}
+@media (max-width: 899px) {
+    .detail-item {
+        width: 50%;
+        padding: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .detail-item {
+        width: 100%;
+        padding: 0px;
+    }
+}
