@@ -287,7 +287,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .section-title h2 {
@@ -437,9 +437,11 @@ section {
   margin-bottom: 20px;
   color: #050d18;
 }
+
 .resume .row {
    margin-left:20px;
  }
+ 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
@@ -1110,6 +1112,18 @@ section {
 .detail-item a, .detail-item img {
     width: 100% !important;
 }
+
+.container {
+     padding-left: 40px; 	
+	 	
+}
+.about {
+     padding-bottom: 0px; 		
+}
+
+
+
+
 @media (max-width: 1199px) {
     .detail-item {
         width: 33%;
